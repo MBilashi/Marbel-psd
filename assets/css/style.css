@@ -1,0 +1,236 @@
+/*===================================
+    - Template Name: Marble | Bootstrap | landing page PSD to HTML
+    - Author: Mst. Monia Bilashi Moni
+    - Version: 
+    - Website: 
+=====================================*/
+
+
+
+
+/* =======================================
+   Start Universal Secletor or common css 
+   ======================================= */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --primary:#efefef;
+    --secondary:#010101;
+    --third:#9d9abf;
+    --fourth:#d2514b;
+    --fifth:#66a3c6;
+    --sixth:#e8c04f;
+    --menu:#e6e6e6;
+    --hovre_menu:#44c0a6;
+    --hero_a:#3f8dbf;
+}
+h1, h2, h3,h4,h5,h6,p,a{
+  font-family: 'Roboto Slab', serif;
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+/*=================================================
+     End Universal Secletor 
+  ================================================== */
+
+  /* Top Header Menu Bar section CSS Start */
+  .top_header{
+    background: var(--primary);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .logo a{
+    font-size: 40px;
+  }
+  .navbar{
+    padding: 26px 0;
+  }
+  .nav-item{
+    padding:0px 10px ;
+  }
+  .nav-item .nav-link {
+    font-weight: 700;
+    transition: .7s;
+  }
+  .nav-item .nav-link:hover{
+    color: var(--hovre_menu);
+  }
+  /* Top Header Menu Bar section CSS End */
+
+  /* Hero part CSS Start */
+  .hero_part{
+    background:url('../image/hero_banner.png') no-repeat center;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    height: 600px;
+  }
+
+.hero_main{
+    width: 100%;
+    margin: auto;
+}
+.carsole_one{
+  text-align: center;
+  font-weight: 700;
+}
+.carsole_one h1{
+  padding-top: 195px;
+  padding-bottom: 55px;
+}
+.carsole_one a{
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  line-height: 40px;
+  background:var(--hero_a) ;
+  color: #fff;
+  border-radius: 10px;
+}
+  /* Hero part CSS End */
+
+  /*features part CSS Start  */
+  .features_main{
+    border-bottom: 1px solid var(--primary);
+    
+  }
+  .features_main h3{
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 700;
+  }
+  .features_main p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+  }
+    .features_main_cont{
+      flex-direction: column;
+      align-items: center;
+    }
+    .image {
+      width: 90px;
+      height: 90px;
+      background: var(--third);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .image-4{
+      background: var(--sixth);
+    }
+    .image-3{
+      background: var(--fifth);
+    }
+    .image-2{
+      background: var(--fourth);
+    }
+  /*features part CSS End  */
+
+/* Our Latest Part CSS Start  */
+.our_latest_work_part_header h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.work_main{
+  display: flex;
+  flex-direction: column;
+}
+.work_main_image img{
+  width: 95%;
+}
+.work_main_text h4 {
+  font-family: 'Roboto Slab', serif; 
+  font-weight: 700;
+}
+.work_main_text h6{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.work_main_text p{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 13px;
+}
+/* Our Latest Part CSS End  */
+
+  /* hifen part CSS Start  */
+  .hifen{
+    background: var(--primary);
+  }
+ .hifen_text{
+  width: 65%;
+  margin: auto;
+ }
+  /* hifen part CSS End  */
+
+  /* Top Footer Part CSS Start */
+  .footer{
+    background: var(--secondary);
+  }
+  .footer_main_part{
+    border-bottom: 1px solid gray;
+  }
+  .footer_main .box h3{
+    color: gray;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+  } 
+  .footer_main .box p,
+  .footer_icon_p{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+  }
+  .footer-icon{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  /* Top Footer Part CSS End */
+
+  /* Bottom Footer CSS Part Start  */
+  .btm_footer{
+    background: var(--secondary);
+  }
+  .btm_footer_main h6{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+  }
+  /* Bottom Footer CSS Part End  */
