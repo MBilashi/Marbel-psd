@@ -73,6 +73,9 @@ a {
   .top_header{
     background: var(--primary);
     font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
   }
   .logo a{
     font-size: 40px;
